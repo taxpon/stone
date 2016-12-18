@@ -24,10 +24,10 @@ class Token(object):
     def is_identifier(self) -> bool:
         return False
 
-    def is_number(self) -> bool:
+    def is_num(self) -> bool:
         return False
 
-    def is_string(self) -> bool:
+    def is_str(self) -> bool:
         return False
 
 

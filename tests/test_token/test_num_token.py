@@ -12,5 +12,5 @@ class TestNumToken(StoneTestBase):
     def test_number(self):
         self.assertEqual(self.num_token.number, 20)
 
-    def test_is_number(self):
-        self.assertTrue(self.num_token.is_number())
+    def test_is_num(self):
+        self.assertTrue(self.num_token.is_num())

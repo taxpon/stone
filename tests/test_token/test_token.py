@@ -25,7 +25,7 @@ class TestToken(StoneTestBase):
         self.assertFalse(self.token.is_identifier())
 
     def test_is_number(self):
-        self.assertFalse(self.token.is_number())
+        self.assertFalse(self.token.is_num())
 
     def test_is_string(self):
-        self.assertFalse(self.token.is_string())
+        self.assertFalse(self.token.is_str())

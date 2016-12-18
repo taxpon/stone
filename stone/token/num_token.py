@@ -14,5 +14,5 @@ class NumToken(Token):
     def number(self) -> Union[int, float]:
         return self._value
 
-    def is_number(self) -> bool:
+    def is_num(self) -> bool:
         return True
