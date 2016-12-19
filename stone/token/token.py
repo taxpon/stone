@@ -21,7 +21,7 @@ class Token(object):
     def text(self) -> str:
         return ""
 
-    def is_identifier(self) -> bool:
+    def is_id(self) -> bool:
         return False
 
     def is_num(self) -> bool:

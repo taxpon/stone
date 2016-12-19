@@ -22,7 +22,7 @@ class TestToken(StoneTestBase):
         self.assertEqual("", self.token.text)
 
     def test_is_identifier(self):
-        self.assertFalse(self.token.is_identifier())
+        self.assertFalse(self.token.is_id())
 
     def test_is_number(self):
         self.assertFalse(self.token.is_num())
