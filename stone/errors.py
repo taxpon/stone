@@ -3,3 +3,7 @@
 
 class StoneException(Exception):
     pass
+
+
+class ParseException(Exception):
+    pass

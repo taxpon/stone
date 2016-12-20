@@ -32,4 +32,4 @@ class Token(object):
 
 
 EOF = Token(-1)
-STRING_EOF = "\\n"
+EOL = "\\n"
