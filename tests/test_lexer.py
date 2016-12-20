@@ -12,12 +12,7 @@ from stone.token.id_token import IdToken
 
 
 class TestLexerBase(StoneTestBase):
-    def assertTokenEqual(self, one: Token, other: Token):
-        self.assertEqual(one.__class__.__name__, other.__class__.__name__)
-        self.assertEqual(one.line_number, other.line_number)
-        self.assertEqual(one.text, other.text)
-        if isinstance(one, NumToken):
-            self.assertEqual(one.number, other.number)
+    pass
 
 
 class TestLexer(TestLexerBase):
